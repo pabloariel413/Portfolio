@@ -11,7 +11,7 @@ h2{
     padding: 30px;
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .container img{

@@ -1,0 +1,56 @@
+.skill-container {
+    background-color: gray;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.hard {
+    width: 50%;
+}
+.soft{
+width: 50%;
+}
+
+h3{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px;
+    justify-content: center;
+}
+
+img {
+    max-width: 100px;
+}
+
+.progress {
+    height: 35px;
+    width: 60%;
+    min-width: 50%;
+    border: 1px solid;
+    border-color: darkolivegreen;
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    background: darkolivegreen;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+
+.progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5;
+}
