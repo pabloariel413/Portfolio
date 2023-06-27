@@ -1,0 +1,23 @@
+.works-container{
+background-image:url(../../../assets/img/space.jpg);
+height: 100vh;
+}
+
+h2{
+color: aliceblue;
+padding: 100px 50px 50px;
+}
+
+.works{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#ayudaespirit{
+    
+}
+
+
