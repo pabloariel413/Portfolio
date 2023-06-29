@@ -1,3 +1,26 @@
 .contact-container{
-    background-image: url(../../../assets/img/space.jpg);
+
 }
+
+h2{
+    padding-bottom: 50px;
+}
+
+.formulario{
+    background-color: darkolivegreen;
+    padding: 50px;
+}
+
+.webs{
+  padding: 50px;
+}
+
+.webs a{
+    color: darkolivegreen;
+    margin: 20px;
+}
+
+svg:hover{
+    transform: scale(1.15);
+}
+
