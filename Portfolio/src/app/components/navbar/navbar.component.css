@@ -5,3 +5,7 @@
     background-color: transparent !important;
     padding-right: 40px;
 }
+
+.nav{
+    gap:100px;
+}
