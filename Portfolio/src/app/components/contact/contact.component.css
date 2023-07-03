@@ -1,26 +1,83 @@
-.contact-container{
+.contacto{
+background-color: black;
+position: relative;
+}
 
+.contact-container{
+    padding: 50px 100px 50px;
+    margin: 0px;
+}
+
+.title-contact{
+    text-align: center;
+    padding: 0px;
+    font-size: 58px;
+    color: aliceblue;
 }
 
 h2{
-    padding-bottom: 50px;
+    color: #00ED29;
+    padding: 30px;
+    font-size: 20px;
+}
+
+h3{
+    padding-bottom: 20px;
+    color: aliceblue;
 }
 
 .formulario{
-    background-color: darkolivegreen;
+    background-color: #494F56;
     padding: 50px;
+}
+
+.formulario label{
+    color: aliceblue;
 }
 
 .webs{
   padding: 50px;
+  background-color: #00ED29;
 }
 
 .webs a{
-    color: darkolivegreen;
+    color: #494F56;
     margin: 20px;
 }
 
+.text-contact{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    color: #494F56;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h5:hover{
+    transform: scale(1.15);
+}
+
 svg:hover{
+    transform: scale(1.15);
+}
+
+.back-btn{
+    background-color: #00ED29;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -30px;
+    bottom: 100px;
+    color: aliceblue;
+}
+
+.back-btn:hover{
     transform: scale(1.15);
 }
 
