@@ -66,6 +66,12 @@ svg:hover{
     transform: scale(1.15);
 }
 
+footer{
+    color: #494F56;
+    text-align: end;
+    padding: 200px 20px 0px;
+}
+
 .back-btn{
     background-color: #00ED29;
     border-radius: 100px;
