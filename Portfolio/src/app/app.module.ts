@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
-import { SkillsComponent } from './components/skills/skills.component';
-import { SliderComponent } from './components/slider/slider.component';
 import { WorksComponent } from './components/works/works.component';
 import { ContactComponent } from './components/contact/contact.component';
 
@@ -17,8 +15,6 @@ import { ContactComponent } from './components/contact/contact.component';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    SkillsComponent,
-    SliderComponent,
     WorksComponent,
     ContactComponent
   ],
