@@ -17,6 +17,7 @@ video{
     flex-wrap: wrap;
     gap: 200px;
     justify-content: center;
+    overflow: hidden;
 }
 
 .circulo{
@@ -33,6 +34,7 @@ video{
     color: aliceblue;
     position: relative;
     z-index: 1;
+    padding-left: 20px;
 }
 
 .nombre{
@@ -44,9 +46,52 @@ video{
     font-size: 28px;
 }
 
+.back-btn{
+    background-color: #00ED29;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: -30px;
+    bottom: 200px;
+    color: aliceblue;
+}
+
+h4{
+    color: #00ED29;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+h1:hover{
+    transform: scale(1.15);
+}
+
+h5:hover{
+    transform: scale(1.15);
+}
+
+.back-btn:hover{
+    transform: scale(1.15);
+}
+
+h4:hover{
+    transform: scale(1.15);
+}
+
+.circulo:hover{
+    transform: scale(1.15);
+}
 
 @media screen and (max-width: 600px){
-    .home{
-       
+    .back-btn{
+      
+    }
+    h4{
+        display: none;
+    }
+    .circulo{
+        display: none;
     }
 }
