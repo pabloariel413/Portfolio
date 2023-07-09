@@ -9,3 +9,18 @@
 .nav{
     gap:100px;
 }
+
+.navbar-tog{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .navbar-main{
+        display: none;
+    }
+    .navbar-tog{
+        display: contents;
+    }
+}
+
+
