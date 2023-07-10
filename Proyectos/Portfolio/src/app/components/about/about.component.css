@@ -9,6 +9,8 @@ h2 {
     text-align: center;
     font-size: 58px;
     color: aliceblue;
+    position: relative;
+    transition: 1200ms;
 }
 
 
@@ -45,19 +47,17 @@ h2 {
     margin-bottom: 100px;
     text-align: center;
     color: aliceblue;
+    
 }
 
 .box-container img {
     border-radius: 300px;
     max-width: 300px;
+    transition: 1200ms;
 }
 
-img:hover {
-    transform: scale(1.15);
-}
-
-button:hover {
-    transform: scale(1.15);
+.me-description{
+    transition: 1200ms;
 }
 
 .me-container {
@@ -90,7 +90,24 @@ button:hover {
     color: aliceblue;
 }
 
+.next-btn{
+    background-color: #00ED29;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: -30px;
+    bottom: 200px;
+    color: aliceblue;
+}
+
+.next{display: none;}
+
 .back-btn:hover{
+    transform: scale(1.15);
+}
+
+.next-btn:hover{
     transform: scale(1.15);
 }
 
@@ -98,9 +115,42 @@ button:hover {
     transform: scale(1.15);
 }
 
+img:hover {
+    transform: scale(1.15);
+}
+
+button:hover {
+    transform: scale(1.15);
+}
+
+h2:hover{
+    transform: scale(1.15);
+}
+
 @media screen and (max-width: 600px) {
     .me-container {
         flex-direction: column;
         padding: 0;
+    }
+    .items {
+        gap: 100px;
+    }
+    .next-btn{
+        width: 100px;
+        height: 75px;
+        border-radius: 30px;
+        right: 10px;
+        bottom: -100px;
+
+    }
+    .next{
+        display: contents;
+    }
+    .back-btn{
+        width: 100px;
+        height: 75px;
+        border-radius: 30px;
+        left: 10px;
+        bottom: -100px;
     }
 }

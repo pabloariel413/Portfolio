@@ -79,6 +79,24 @@ img{
     left: -20px;
 }
 
+.next-btn{
+    height: 1100px;
+    width: 800px;
+    border-radius: 100%;
+    background-color: #00ED29;
+    overflow: hidden;
+    position:relative;
+    right: -950px;
+    bottom: 900px;
+}
+
+.next-btn svg{
+    left: 30px;
+    bottom: 500px;
+    position: absolute;
+    color: aliceblue;
+}
+
 
 @media screen and (max-width: 600px){
     .back-btn{
