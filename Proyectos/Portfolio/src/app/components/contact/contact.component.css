@@ -1,11 +1,11 @@
 .contacto{
 background-color: black;
-position: relative;
 }
 
 .contact-container{
     padding: 50px 100px 50px;
     margin: 0px;
+    position: relative;
 }
 
 .title-contact{
@@ -19,6 +19,7 @@ h2{
     color: #00ED29;
     padding: 30px;
     font-size: 20px;
+    position: relative;
 }
 
 h3{
@@ -81,6 +82,7 @@ footer{
     left: -30px;
     bottom: 100px;
     color: aliceblue;
+    position: relative;
 }
 
 .back-btn:hover{

@@ -1,7 +1,6 @@
 .works-container{
 background-color: black;
 overflow: hidden;
-position: relative;
 }
 
 h2{
@@ -49,6 +48,7 @@ font-size: 58px;
     text-align: center;
     width: 300px;
     gap: 20px;
+    position: relative;
 }
 
 .work p{
@@ -68,7 +68,6 @@ button:hover{
     background-color: #00ED29;
     width: 300px;
     height: 200px;
-    position: relative;
 }
 
 img{
