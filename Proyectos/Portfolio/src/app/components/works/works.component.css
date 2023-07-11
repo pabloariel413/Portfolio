@@ -1,39 +1,18 @@
-.works-container{
-background-color: black;
-overflow: hidden;
-}
-
-h2{
-color: aliceblue;
-padding: 100px 50px 50px;
-text-align: center;
-font-size: 58px;
-}
-
-.back-btn{
-    height: 1100px;
-    width: 800px;
-    border-radius: 100%;
-    background-color: #00ED29;
+.works-container {
+    background-color: black;
     overflow: hidden;
-    position:relative;
-    left: -650px;
-    bottom: 900px;
 }
 
-.back-btn svg{
-    left: 680px;
-    bottom: 500px;
-    position: absolute;
+h2 {
     color: aliceblue;
+    padding: 100px 50px 50px;
+    text-align: center;
+    font-size: 58px;
+    position: relative;
+    transition: 1000ms;
 }
 
-.back-btn:hover{
-    transform: scale(1.15);
-}
-
-
-.works{
+.works {
     display: flex;
     flex-direction: row;
     gap: 100px;
@@ -42,7 +21,7 @@ font-size: 58px;
     padding: 50px;
 }
 
-.work{
+.work {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -51,26 +30,22 @@ font-size: 58px;
     position: relative;
 }
 
-.work p{
- color: aliceblue;
+.work p {
+    color: aliceblue;
 }
 
-.work button{
- background-color: #00ED29;
- padding: 10px;
+.work button {
+    background-color: #00ED29;
+    padding: 10px;
 }
 
-button:hover{
-    transform: scale(1.15);
-}
-
-.rectangle{
+.rectangle {
     background-color: #00ED29;
     width: 300px;
     height: 200px;
 }
 
-img{
+img {
     width: 300px;
     height: 200px;
     position: absolute;
@@ -79,28 +54,90 @@ img{
     left: -20px;
 }
 
-.next-btn{
+.back-btn {
     height: 1100px;
     width: 800px;
     border-radius: 100%;
     background-color: #00ED29;
     overflow: hidden;
-    position:relative;
+    position: relative;
+    left: -650px;
+    bottom: 900px;
+}
+
+.back-btn svg {
+    left: 680px;
+    bottom: 500px;
+    position: absolute;
+    color: aliceblue;
+}
+
+.next-btn {
+    height: 1100px;
+    width: 800px;
+    border-radius: 100%;
+    background-color: #00ED29;
+    overflow: hidden;
+    position: relative;
     right: -950px;
     bottom: 900px;
 }
 
-.next-btn svg{
+.next-btn svg {
     left: 30px;
     bottom: 500px;
     position: absolute;
     color: aliceblue;
 }
 
-
-@media screen and (max-width: 600px){
-    .back-btn{
-        display: none;
-    }
+button:hover {
+    transform: scale(1.15);
 }
 
+.back-btn:hover {
+    transform: scale(1.15);
+}
+
+h2:hover {
+    transform: scale(1.15);
+}
+
+.rectangle:hover {
+    transform: scale(1.05);
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 600px) {
+    .back-btn {
+        bottom: 40px;
+        left: 10px;
+        width: 100px;
+        height: 75px;
+        border-radius: 30px;
+    }
+
+    .back-btn svg {
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+        width: 30px;
+    }
+
+    .next-btn {
+        bottom: 45px;
+        left: 205px;
+        width: 100px;
+        height: 75px;
+        border-radius: 30px;
+    }
+
+    .next-btn svg {
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+        width: 30px;
+    }
+}

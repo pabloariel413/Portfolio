@@ -1,47 +1,43 @@
-
-
-
-
-.home{
+.home {
     min-height: 100vh;
     position: relative;
     display: flex;
-    align-items:center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 200px;
     justify-content: center;
     overflow: hidden;
 }
 
-.circulo{
+.circulo {
     width: 600px;
     height: 600px;
     background-color: #00ED29;
     border-radius: 500px;
     position: relative;
-    
+
 
     display: none;
 }
 
-.text-container{
+.text-container {
     color: aliceblue;
     position: relative;
     padding-left: 20px;
-    
+
 }
 
-.nombre{
+.nombre {
     font-size: 89px;
     transition: 1200ms;
 }
 
-.text-container h5{
+.text-container h5 {
     font-size: 28px;
     transition: 1200ms;
 }
 
-.next-btn{
+.next-btn {
     background-color: #00ED29;
     border-radius: 100px;
     width: 100px;
@@ -52,42 +48,44 @@
     color: aliceblue;
 }
 
-h4{
+h4 {
     color: #00ED29;
     position: absolute;
     right: 50px;
     bottom: 50px;
 }
 
-h1:hover{
+h1:hover {
     transform: scale(1.15);
 }
 
-h5:hover{
+h5:hover {
     transform: scale(1.15);
 }
 
-.next-btn:hover{
+.next-btn:hover {
     transform: scale(1.15);
 }
 
-h4:hover{
+h4:hover {
     transform: scale(1.15);
 }
 
-.circulo:hover{
+.circulo:hover {
     transform: scale(1.15);
 }
 
-@media screen and (max-width: 600px){
-    
-    h4{
+@media screen and (max-width: 600px) {
+
+    h4 {
         display: none;
     }
-    .circulo{
+
+    .circulo {
         display: none;
     }
-    .next-btn{
+
+    .next-btn {
         bottom: 300px;
     }
 }
