@@ -110,6 +110,8 @@ img:hover {
     transform: scale(1.05);
 }
 
+.workinprocess{display: none;}
+
 @media screen and (max-width: 600px) {
     .back-btn {
         bottom: 40px;
