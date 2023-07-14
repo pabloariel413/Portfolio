@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -7,4 +8,21 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  constructor(private router:Router){}
+
+  home(){
+    this.router.navigate([''])
+  }
+
+  about(){
+    this.router.navigate(['/about'])
+  }
+
+  works(){
+    this.router.navigate(['/works'])
+  }
+
+  contact(){
+    this.router.navigate(['/contact'])
+  }
 }
