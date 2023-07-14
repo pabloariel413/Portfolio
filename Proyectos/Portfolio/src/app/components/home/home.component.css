@@ -24,7 +24,7 @@
     color: aliceblue;
     position: relative;
     padding-left: 20px;
-
+    
 }
 
 .nombre {
@@ -76,7 +76,9 @@ h4:hover {
 }
 
 @media screen and (max-width: 600px) {
-
+    .text-container{
+        padding-bottom: 200px;
+    }
     h4 {
         display: none;
     }
